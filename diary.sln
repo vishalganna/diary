@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary", "src\Diary\Diary.csproj", "{5702A2E7-E49C-4490-A0CC-E01E0F3563C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diary", "src\Diary\Diary.csproj", "{5702A2E7-E49C-4490-A0CC-E01E0F3563C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GithubActions", "GithubActions", "{427D78B6-71B6-4797-BF36-4AEF7F5DD542}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\develop_vish-diary-dev.yml = .github\workflows\develop_vish-diary-dev.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
