@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.API", "src\Diary.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.API.UnitTests", "tests\Diary.API.UnitTests\Diary.API.UnitTests.csproj", "{D0DD8518-3BE7-4754-9A50-7EB16564B7C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Application.UnitTests", "tests\Diary.Application.UnitTests\Diary.Application.UnitTests.csproj", "{4D10A76C-C42A-413B-8C27-8C28BF7758F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{D0DD8518-3BE7-4754-9A50-7EB16564B7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DD8518-3BE7-4754-9A50-7EB16564B7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DD8518-3BE7-4754-9A50-7EB16564B7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D10A76C-C42A-413B-8C27-8C28BF7758F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D10A76C-C42A-413B-8C27-8C28BF7758F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D10A76C-C42A-413B-8C27-8C28BF7758F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D10A76C-C42A-413B-8C27-8C28BF7758F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{D9F7688E-84A4-427E-814C-1C22D768069F} = {6670D684-5408-446D-832D-89B35751E6D2}
 		{865C818A-1E57-49E9-A56A-3F0B85E8390F} = {6670D684-5408-446D-832D-89B35751E6D2}
 		{D0DD8518-3BE7-4754-9A50-7EB16564B7C5} = {C5656DD3-FE33-48AD-A1D4-50241AEA173E}
+		{4D10A76C-C42A-413B-8C27-8C28BF7758F2} = {C5656DD3-FE33-48AD-A1D4-50241AEA173E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {225E2B7B-C6DA-4DA4-ABDB-3B6D93B21599}
